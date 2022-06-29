@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19A2F42286CD65500925F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F41286CD65500925F6F /* AppDelegate.swift */; };
+		C19A2F44286CD65500925F6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F43286CD65500925F6F /* SceneDelegate.swift */; };
+		C19A2F46286CD65500925F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F45286CD65500925F6F /* ViewController.swift */; };
+		C19A2F49286CD65500925F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19A2F47286CD65500925F6F /* Main.storyboard */; };
+		C19A2F4C286CD65500925F6F /* HavenApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F4A286CD65500925F6F /* HavenApp.xcdatamodeld */; };
+		C19A2F4E286CD65E00925F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19A2F4D286CD65E00925F6F /* Assets.xcassets */; };
+		C19A2F51286CD65E00925F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19A2F4F286CD65E00925F6F /* LaunchScreen.storyboard */; };
+		C19A2F5C286CD66000925F6F /* HavenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F5B286CD66000925F6F /* HavenAppTests.swift */; };
+		C19A2F66286CD66000925F6F /* HavenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F65286CD66000925F6F /* HavenAppUITests.swift */; };
+		C19A2F68286CD66000925F6F /* HavenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F67286CD66000925F6F /* HavenAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19A2F58286CD65F00925F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19A2F36286CD65500925F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19A2F3D286CD65500925F6F;
+			remoteInfo = HavenApp;
+		};
+		C19A2F62286CD66000925F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19A2F36286CD65500925F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19A2F3D286CD65500925F6F;
+			remoteInfo = HavenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C19A2F3E286CD65500925F6F /* HavenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A2F41286CD65500925F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19A2F43286CD65500925F6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C19A2F45286CD65500925F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C19A2F48286CD65500925F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19A2F4B286CD65500925F6F /* HavenApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HavenApp.xcdatamodel; sourceTree = "<group>"; };
+		C19A2F4D286CD65E00925F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19A2F50286CD65E00925F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19A2F52286CD65F00925F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19A2F57286CD65F00925F6F /* HavenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A2F5B286CD66000925F6F /* HavenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavenAppTests.swift; sourceTree = "<group>"; };
+		C19A2F61286CD66000925F6F /* HavenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19A2F65286CD66000925F6F /* HavenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavenAppUITests.swift; sourceTree = "<group>"; };
+		C19A2F67286CD66000925F6F /* HavenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19A2F3B286CD65500925F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F54286CD65F00925F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F5E286CD66000925F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19A2F35286CD65500925F6F = {
+			isa = PBXGroup;
+			children = (
+				C19A2F40286CD65500925F6F /* HavenApp */,
+				C19A2F5A286CD66000925F6F /* HavenAppTests */,
+				C19A2F64286CD66000925F6F /* HavenAppUITests */,
+				C19A2F3F286CD65500925F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19A2F3F286CD65500925F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19A2F3E286CD65500925F6F /* HavenApp.app */,
+				C19A2F57286CD65F00925F6F /* HavenAppTests.xctest */,
+				C19A2F61286CD66000925F6F /* HavenAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19A2F40286CD65500925F6F /* HavenApp */ = {
+			isa = PBXGroup;
+			children = (
+				C19A2F41286CD65500925F6F /* AppDelegate.swift */,
+				C19A2F43286CD65500925F6F /* SceneDelegate.swift */,
+				C19A2F45286CD65500925F6F /* ViewController.swift */,
+				C19A2F47286CD65500925F6F /* Main.storyboard */,
+				C19A2F4D286CD65E00925F6F /* Assets.xcassets */,
+				C19A2F4F286CD65E00925F6F /* LaunchScreen.storyboard */,
+				C19A2F52286CD65F00925F6F /* Info.plist */,
+				C19A2F4A286CD65500925F6F /* HavenApp.xcdatamodeld */,
+			);
+			path = HavenApp;
+			sourceTree = "<group>";
+		};
+		C19A2F5A286CD66000925F6F /* HavenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19A2F5B286CD66000925F6F /* HavenAppTests.swift */,
+			);
+			path = HavenAppTests;
+			sourceTree = "<group>";
+		};
+		C19A2F64286CD66000925F6F /* HavenAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19A2F65286CD66000925F6F /* HavenAppUITests.swift */,
+				C19A2F67286CD66000925F6F /* HavenAppUITestsLaunchTests.swift */,
+			);
+			path = HavenAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19A2F3D286CD65500925F6F /* HavenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A2F6B286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenApp" */;
+			buildPhases = (
+				C19A2F3A286CD65500925F6F /* Sources */,
+				C19A2F3B286CD65500925F6F /* Frameworks */,
+				C19A2F3C286CD65500925F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HavenApp;
+			productName = HavenApp;
+			productReference = C19A2F3E286CD65500925F6F /* HavenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19A2F56286CD65F00925F6F /* HavenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A2F6E286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenAppTests" */;
+			buildPhases = (
+				C19A2F53286CD65F00925F6F /* Sources */,
+				C19A2F54286CD65F00925F6F /* Frameworks */,
+				C19A2F55286CD65F00925F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19A2F59286CD65F00925F6F /* PBXTargetDependency */,
+			);
+			name = HavenAppTests;
+			productName = HavenAppTests;
+			productReference = C19A2F57286CD65F00925F6F /* HavenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19A2F60286CD66000925F6F /* HavenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19A2F71286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenAppUITests" */;
+			buildPhases = (
+				C19A2F5D286CD66000925F6F /* Sources */,
+				C19A2F5E286CD66000925F6F /* Frameworks */,
+				C19A2F5F286CD66000925F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19A2F63286CD66000925F6F /* PBXTargetDependency */,
+			);
+			name = HavenAppUITests;
+			productName = HavenAppUITests;
+			productReference = C19A2F61286CD66000925F6F /* HavenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19A2F36286CD65500925F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C19A2F3D286CD65500925F6F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C19A2F56286CD65F00925F6F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C19A2F3D286CD65500925F6F;
+					};
+					C19A2F60286CD66000925F6F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C19A2F3D286CD65500925F6F;
+					};
+				};
+			};
+			buildConfigurationList = C19A2F39286CD65500925F6F /* Build configuration list for PBXProject "HavenApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19A2F35286CD65500925F6F;
+			productRefGroup = C19A2F3F286CD65500925F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19A2F3D286CD65500925F6F /* HavenApp */,
+				C19A2F56286CD65F00925F6F /* HavenAppTests */,
+				C19A2F60286CD66000925F6F /* HavenAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19A2F3C286CD65500925F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A2F51286CD65E00925F6F /* LaunchScreen.storyboard in Resources */,
+				C19A2F4E286CD65E00925F6F /* Assets.xcassets in Resources */,
+				C19A2F49286CD65500925F6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F55286CD65F00925F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F5F286CD66000925F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19A2F3A286CD65500925F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A2F4C286CD65500925F6F /* HavenApp.xcdatamodeld in Sources */,
+				C19A2F46286CD65500925F6F /* ViewController.swift in Sources */,
+				C19A2F42286CD65500925F6F /* AppDelegate.swift in Sources */,
+				C19A2F44286CD65500925F6F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F53286CD65F00925F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A2F5C286CD66000925F6F /* HavenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A2F5D286CD66000925F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A2F68286CD66000925F6F /* HavenAppUITestsLaunchTests.swift in Sources */,
+				C19A2F66286CD66000925F6F /* HavenAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19A2F59286CD65F00925F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19A2F3D286CD65500925F6F /* HavenApp */;
+			targetProxy = C19A2F58286CD65F00925F6F /* PBXContainerItemProxy */;
+		};
+		C19A2F63286CD66000925F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19A2F3D286CD65500925F6F /* HavenApp */;
+			targetProxy = C19A2F62286CD66000925F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C19A2F47286CD65500925F6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A2F48286CD65500925F6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19A2F4F286CD65E00925F6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19A2F50286CD65E00925F6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19A2F69286CD66000925F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19A2F6A286CD66000925F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19A2F6C286CD66000925F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HavenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19A2F6D286CD66000925F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HavenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C19A2F6F286CD66000925F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavenApp.app/HavenApp";
+			};
+			name = Debug;
+		};
+		C19A2F70286CD66000925F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavenApp.app/HavenApp";
+			};
+			name = Release;
+		};
+		C19A2F72286CD66000925F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HavenApp;
+			};
+			name = Debug;
+		};
+		C19A2F73286CD66000925F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kodewithklossy.HavenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HavenApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19A2F39286CD65500925F6F /* Build configuration list for PBXProject "HavenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A2F69286CD66000925F6F /* Debug */,
+				C19A2F6A286CD66000925F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A2F6B286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A2F6C286CD66000925F6F /* Debug */,
+				C19A2F6D286CD66000925F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A2F6E286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A2F6F286CD66000925F6F /* Debug */,
+				C19A2F70286CD66000925F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19A2F71286CD66000925F6F /* Build configuration list for PBXNativeTarget "HavenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19A2F72286CD66000925F6F /* Debug */,
+				C19A2F73286CD66000925F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C19A2F4A286CD65500925F6F /* HavenApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C19A2F4B286CD65500925F6F /* HavenApp.xcdatamodel */,
+			);
+			currentVersion = C19A2F4B286CD65500925F6F /* HavenApp.xcdatamodel */;
+			path = HavenApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C19A2F36286CD65500925F6F /* Project object */;
+}
