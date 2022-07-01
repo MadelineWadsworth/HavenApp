@@ -17,6 +17,26 @@
 		C19A2F5C286CD66000925F6F /* HavenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F5B286CD66000925F6F /* HavenAppTests.swift */; };
 		C19A2F66286CD66000925F6F /* HavenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F65286CD66000925F6F /* HavenAppUITests.swift */; };
 		C19A2F68286CD66000925F6F /* HavenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F67286CD66000925F6F /* HavenAppUITestsLaunchTests.swift */; };
+		C19A2F75286CE15E00925F6F /* AbortionInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F74286CE15D00925F6F /* AbortionInformationViewController.swift */; };
+		C19A2F77286CF97700925F6F /* BodyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F76286CF97700925F6F /* BodyImageViewController.swift */; };
+		C19A2F79286CF9A800925F6F /* MenstruationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F78286CF9A800925F6F /* MenstruationViewController.swift */; };
+		C19A2F7B286CF9D100925F6F /* DomesticAbuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F7A286CF9D100925F6F /* DomesticAbuseViewController.swift */; };
+		C19A2F7D286CFA2600925F6F /* AbortionActivismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F7C286CFA2600925F6F /* AbortionActivismViewController.swift */; };
+		C19A2F7F286CFA6500925F6F /* AbortionStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F7E286CFA6500925F6F /* AbortionStoriesViewController.swift */; };
+		C19A2F81286CFA8D00925F6F /* SeekingAnAbortionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F80286CFA8D00925F6F /* SeekingAnAbortionViewController.swift */; };
+		C19A2F83286CFAAF00925F6F /* AbortionDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F82286CFAAF00925F6F /* AbortionDonateViewController.swift */; };
+		C19A2F85286CFD7800925F6F /* CallLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F84286CFD7800925F6F /* CallLinesViewController.swift */; };
+		C19A2F87286CFE4B00925F6F /* BodyImageCharitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F86286CFE4B00925F6F /* BodyImageCharitiesViewController.swift */; };
+		C19A2F89286CFEA800925F6F /* BodyImageMeditationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F88286CFEA800925F6F /* BodyImageMeditationsViewController.swift */; };
+		C19A2F8B286CFF1B00925F6F /* BodyImageSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F8A286CFF1B00925F6F /* BodyImageSupportViewController.swift */; };
+		C19A2F8D286D438F00925F6F /* MenstruationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F8C286D438F00925F6F /* MenstruationInformationViewController.swift */; };
+		C19A2F8F286D43B400925F6F /* MenstruationBreakingTheStigmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F8E286D43B400925F6F /* MenstruationBreakingTheStigmaViewController.swift */; };
+		C19A2F91286D43E500925F6F /* MenstruationEnvironmentalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F90286D43E500925F6F /* MenstruationEnvironmentalImpactViewController.swift */; };
+		C19A2F93286D440700925F6F /* DomesticAbuseHelplineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F92286D440700925F6F /* DomesticAbuseHelplineViewController.swift */; };
+		C19A2F95286D442E00925F6F /* DomesticAbuseEscapePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F94286D442E00925F6F /* DomesticAbuseEscapePlanViewController.swift */; };
+		C19A2F97286D444C00925F6F /* DomesticAbuseSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F96286D444C00925F6F /* DomesticAbuseSupportViewController.swift */; };
+		C19A2F99286D446C00925F6F /* DomesticAbuseWarningSignsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2F98286D446C00925F6F /* DomesticAbuseWarningSignsViewController.swift */; };
+		C19BDB0E286E6812008D5B76 /* EncouragementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BDB0D286E6812008D5B76 /* EncouragementViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,26 @@
 		C19A2F61286CD66000925F6F /* HavenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19A2F65286CD66000925F6F /* HavenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavenAppUITests.swift; sourceTree = "<group>"; };
 		C19A2F67286CD66000925F6F /* HavenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C19A2F74286CE15D00925F6F /* AbortionInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionInformationViewController.swift; sourceTree = "<group>"; };
+		C19A2F76286CF97700925F6F /* BodyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageViewController.swift; sourceTree = "<group>"; };
+		C19A2F78286CF9A800925F6F /* MenstruationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstruationViewController.swift; sourceTree = "<group>"; };
+		C19A2F7A286CF9D100925F6F /* DomesticAbuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticAbuseViewController.swift; sourceTree = "<group>"; };
+		C19A2F7C286CFA2600925F6F /* AbortionActivismViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionActivismViewController.swift; sourceTree = "<group>"; };
+		C19A2F7E286CFA6500925F6F /* AbortionStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionStoriesViewController.swift; sourceTree = "<group>"; };
+		C19A2F80286CFA8D00925F6F /* SeekingAnAbortionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekingAnAbortionViewController.swift; sourceTree = "<group>"; };
+		C19A2F82286CFAAF00925F6F /* AbortionDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbortionDonateViewController.swift; sourceTree = "<group>"; };
+		C19A2F84286CFD7800925F6F /* CallLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLinesViewController.swift; sourceTree = "<group>"; };
+		C19A2F86286CFE4B00925F6F /* BodyImageCharitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageCharitiesViewController.swift; sourceTree = "<group>"; };
+		C19A2F88286CFEA800925F6F /* BodyImageMeditationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageMeditationsViewController.swift; sourceTree = "<group>"; };
+		C19A2F8A286CFF1B00925F6F /* BodyImageSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageSupportViewController.swift; sourceTree = "<group>"; };
+		C19A2F8C286D438F00925F6F /* MenstruationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstruationInformationViewController.swift; sourceTree = "<group>"; };
+		C19A2F8E286D43B400925F6F /* MenstruationBreakingTheStigmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstruationBreakingTheStigmaViewController.swift; sourceTree = "<group>"; };
+		C19A2F90286D43E500925F6F /* MenstruationEnvironmentalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstruationEnvironmentalImpactViewController.swift; sourceTree = "<group>"; };
+		C19A2F92286D440700925F6F /* DomesticAbuseHelplineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticAbuseHelplineViewController.swift; sourceTree = "<group>"; };
+		C19A2F94286D442E00925F6F /* DomesticAbuseEscapePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticAbuseEscapePlanViewController.swift; sourceTree = "<group>"; };
+		C19A2F96286D444C00925F6F /* DomesticAbuseSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticAbuseSupportViewController.swift; sourceTree = "<group>"; };
+		C19A2F98286D446C00925F6F /* DomesticAbuseWarningSignsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticAbuseWarningSignsViewController.swift; sourceTree = "<group>"; };
+		C19BDB0D286E6812008D5B76 /* EncouragementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncouragementViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +144,26 @@
 				C19A2F41286CD65500925F6F /* AppDelegate.swift */,
 				C19A2F43286CD65500925F6F /* SceneDelegate.swift */,
 				C19A2F45286CD65500925F6F /* ViewController.swift */,
+				C19A2F8A286CFF1B00925F6F /* BodyImageSupportViewController.swift */,
+				C19A2F88286CFEA800925F6F /* BodyImageMeditationsViewController.swift */,
+				C19A2F86286CFE4B00925F6F /* BodyImageCharitiesViewController.swift */,
+				C19A2F84286CFD7800925F6F /* CallLinesViewController.swift */,
+				C19A2F82286CFAAF00925F6F /* AbortionDonateViewController.swift */,
+				C19A2F80286CFA8D00925F6F /* SeekingAnAbortionViewController.swift */,
+				C19A2F7E286CFA6500925F6F /* AbortionStoriesViewController.swift */,
+				C19A2F7C286CFA2600925F6F /* AbortionActivismViewController.swift */,
+				C19A2F7A286CF9D100925F6F /* DomesticAbuseViewController.swift */,
+				C19A2F78286CF9A800925F6F /* MenstruationViewController.swift */,
+				C19A2F76286CF97700925F6F /* BodyImageViewController.swift */,
+				C19A2F74286CE15D00925F6F /* AbortionInformationViewController.swift */,
+				C19A2F98286D446C00925F6F /* DomesticAbuseWarningSignsViewController.swift */,
+				C19A2F96286D444C00925F6F /* DomesticAbuseSupportViewController.swift */,
+				C19A2F94286D442E00925F6F /* DomesticAbuseEscapePlanViewController.swift */,
+				C19A2F92286D440700925F6F /* DomesticAbuseHelplineViewController.swift */,
+				C19A2F90286D43E500925F6F /* MenstruationEnvironmentalImpactViewController.swift */,
+				C19A2F8E286D43B400925F6F /* MenstruationBreakingTheStigmaViewController.swift */,
+				C19A2F8C286D438F00925F6F /* MenstruationInformationViewController.swift */,
+				C19BDB0D286E6812008D5B76 /* EncouragementViewController.swift */,
 				C19A2F47286CD65500925F6F /* Main.storyboard */,
 				C19A2F4D286CD65E00925F6F /* Assets.xcassets */,
 				C19A2F4F286CD65E00925F6F /* LaunchScreen.storyboard */,
@@ -261,8 +321,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19A2F91286D43E500925F6F /* MenstruationEnvironmentalImpactViewController.swift in Sources */,
+				C19A2F97286D444C00925F6F /* DomesticAbuseSupportViewController.swift in Sources */,
+				C19A2F77286CF97700925F6F /* BodyImageViewController.swift in Sources */,
+				C19A2F85286CFD7800925F6F /* CallLinesViewController.swift in Sources */,
+				C19A2F7B286CF9D100925F6F /* DomesticAbuseViewController.swift in Sources */,
+				C19A2F7F286CFA6500925F6F /* AbortionStoriesViewController.swift in Sources */,
 				C19A2F4C286CD65500925F6F /* HavenApp.xcdatamodeld in Sources */,
+				C19A2F7D286CFA2600925F6F /* AbortionActivismViewController.swift in Sources */,
+				C19A2F83286CFAAF00925F6F /* AbortionDonateViewController.swift in Sources */,
+				C19A2F93286D440700925F6F /* DomesticAbuseHelplineViewController.swift in Sources */,
 				C19A2F46286CD65500925F6F /* ViewController.swift in Sources */,
+				C19A2F89286CFEA800925F6F /* BodyImageMeditationsViewController.swift in Sources */,
+				C19A2F95286D442E00925F6F /* DomesticAbuseEscapePlanViewController.swift in Sources */,
+				C19A2F8F286D43B400925F6F /* MenstruationBreakingTheStigmaViewController.swift in Sources */,
+				C19A2F75286CE15E00925F6F /* AbortionInformationViewController.swift in Sources */,
+				C19A2F87286CFE4B00925F6F /* BodyImageCharitiesViewController.swift in Sources */,
+				C19BDB0E286E6812008D5B76 /* EncouragementViewController.swift in Sources */,
+				C19A2F8D286D438F00925F6F /* MenstruationInformationViewController.swift in Sources */,
+				C19A2F79286CF9A800925F6F /* MenstruationViewController.swift in Sources */,
+				C19A2F99286D446C00925F6F /* DomesticAbuseWarningSignsViewController.swift in Sources */,
+				C19A2F8B286CFF1B00925F6F /* BodyImageSupportViewController.swift in Sources */,
+				C19A2F81286CFA8D00925F6F /* SeekingAnAbortionViewController.swift in Sources */,
 				C19A2F42286CD65500925F6F /* AppDelegate.swift in Sources */,
 				C19A2F44286CD65500925F6F /* SceneDelegate.swift in Sources */,
 			);
